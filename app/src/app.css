@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-pink: #C837AB;
+  --color-purple: #5963FF;
+  --color-yellow: #FFDD55;
+  --color-black: #000000;
+  --color-white: #FFFFFF; 
+
+  /* fonts */
+  --font-krona: 'Krona One', sans-serif;
+  --font-basic: 'Italianno', sans-serif;
+  --font-main: 'Kreon Variable', sans-serif;
+  --font-title: 'Lemon', sans-serif;
+}
