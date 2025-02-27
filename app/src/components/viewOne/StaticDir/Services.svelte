@@ -7,7 +7,8 @@
             title: "Patent Dashboard",
             description: "Manage your healthcare effortlessly with the Patient Dashboard. Schedule appointments, access medical records, track prescriptions, and view billing details in one place. Stay updated on health insights, communicate with doctors, and manage payments securely. Your health, simplified.",
             svg1: "nurse.png",
-            svg2: "/img.png"
+            svg2: "/services/dashboard.png",
+            order: "order-1"
         },
         {
             title: "Patent Dashboard",
@@ -19,7 +20,8 @@
             title: "Patent Dashboard",
             description: "Manage your healthcare effortlessly with the Patient Dashboard. Schedule appointments, access medical records, track prescriptions, and view billing details in one place. Stay updated on health insights, communicate with doctors, and manage payments securely. Your health, simplified.",
             svg1: "nurse.png",
-            svg2: "/img.png"
+            svg2: "/img.png",
+            order: "order-1"
         },
         {
             title: "Patent Dashboard",
@@ -34,8 +36,8 @@
 <section class="@container text-center">
     <div>
         <Title text = "Our Services" />
-        {#each services as {title, description, svg1, svg2}}
-            <ServicesCard {title} {description} {svg1} {svg2} />
+        {#each services as {title, description, svg1, svg2, order}}
+            <ServicesCard {title} {description} {svg1} {svg2} {order}/>
         {/each}
     </div>
 </section>

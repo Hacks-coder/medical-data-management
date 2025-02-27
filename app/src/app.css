@@ -2,10 +2,12 @@
 
 @theme {
   --color-pink: #C837AB;
+  --color-lightPink: #FFC0F2;
   --color-purple: #5963FF;
   --color-yellow: #FFDD55;
   --color-black: #000000;
   --color-white: #FFFFFF; 
+  --color-blue: #2161DF;
 
   /* fonts */
   --font-krona: 'Krona One', sans-serif;
